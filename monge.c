@@ -5,7 +5,7 @@ int main() {
     int total_graos = 0;
     int quadro = 64; // número de quadrados em um tabuleiro de xadrez
 
-    for (int i = 2; i < quadro; i++) {
+    for (int i = 1; i < quadro; i++) {
         total_graos += pow(i, 2);
     }
 
